@@ -21,9 +21,9 @@ function App() {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             {/* Espacio para logo (sin texto) */}
-            <div className="mr-3 bg-green-600 p-2 rounded h-12 w-12">
-              {/* Aquí se insertará el logo */}
-            </div>
+            <div className="mr-3 p-2 rounded h-12 w-12">
+  <img src="/images/logo.png" alt="Logo Radiografías Financieras" className="h-full w-full object-contain" />
+</div>
             <div className="ml-1 text-2xl font-bold text-gray-900">RADIOGRAFIAS FINANCIERAS</div>
           </div>
           
