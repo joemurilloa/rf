@@ -14,6 +14,7 @@
         "react-dom": "^18.3.1"
     },
     "devDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.6.1",
         "@types/react": "^18.2.43",
         "@types/react-dom": "^18.2.17",
         "@vitejs/plugin-react": "^4.3.4",
@@ -26,9 +27,15 @@
         "tailwindcss": "^3.4.17",
         "vite": "^5.4.14"
     },
+    "overrides": {
+        "rollup": "^3.29.4"
+    },
     "main": "postcss.config.js",
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "description": ""
+    "description": "",
+    "engines": {
+        "node": ">=18.0.0"
+    }
 }
